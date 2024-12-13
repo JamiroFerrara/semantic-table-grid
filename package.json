@@ -1,0 +1,77 @@
+{
+  "_args": [
+    [
+      "git+https://jferrara_novigo@bitbucket.org/novigo-consulting/semantictablegrid.git",
+      "/home/jferrara/repos/deterchimica/deterchimica-fe"
+    ]
+  ],
+  "_from": "https://jferrara_novigo@bitbucket.org/novigo-consulting/semantictablegrid.git",
+  "_id": "semantic-table-grid@https://jferrara_novigo@bitbucket.org/novigo-consulting/semantictablegrid.git#6df648c985e74987738b1800616de9b0b890d3b6",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/semantic-table-grid",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://jferrara_novigo@bitbucket.org/novigo-consulting/semantictablegrid.git",
+    "rawSpec": "https://jferrara_novigo@bitbucket.org/novigo-consulting/semantictablegrid.git",
+    "saveSpec": "git+https://jferrara_novigo@bitbucket.org/novigo-consulting/semantictablegrid.git",
+    "fetchSpec": "https://jferrara_novigo@bitbucket.org/novigo-consulting/semantictablegrid.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://jferrara_novigo@bitbucket.org/novigo-consulting/semantictablegrid.git#6df648c985e74987738b1800616de9b0b890d3b6",
+  "_spec": "https://jferrara_novigo@bitbucket.org/novigo-consulting/semantictablegrid.git",
+  "_where": "/home/jferrara/repos/deterchimica/deterchimica-fe",
+  "author": {
+    "name": "Novigo Consulting"
+  },
+  "dependencies": {},
+  "description": "A Semantic UI based Table Grid component",
+  "devDependencies": {
+    "@babel/cli": "^7.18.6",
+    "@babel/core": "^7.18.6",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-object-rest-spread": "^7.18.6",
+    "@babel/plugin-transform-react-jsx": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-stage-0": "^7.8.3",
+    "@dnd-kit/core": "^6.0.8",
+    "@dnd-kit/sortable": "^7.0.2",
+    "babel-loader": "^8.2.5",
+    "cross-env": "^7.0.3",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-styleguidist": "^11.2.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.1.3",
+    "webpack": "^5.81.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "homepage": "https://bitbucket.org/novigo-consulting/semantictablegrid#readme",
+  "license": "ISC",
+  "main": "build/index.js",
+  "name": "semantic-table-grid",
+  "peerDependencies": {
+    "react": ">=17",
+    "react-dom": ">=17",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.1.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/novigo-consulting/semantictablegrid.git"
+  },
+  "scripts": {
+    "build": "webpack --env production",
+    "start": "webpack --watch",
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.6.0"
+}
